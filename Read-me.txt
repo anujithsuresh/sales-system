@@ -1,0 +1,41 @@
+--------------------------------Setup for the Project--------------------------------------
+
+Project : sales system
+PHP version : PHP 8.2.0 
+Laravel Framework 12.49.0
+Node Version : v22.14.0
+
+---------commands to be run----------
+
+1. Clone the repository
+   git https://github.com/anujithsuresh/sales-system
+   cd sales-system
+
+2. Install backend dependencies
+   composer install
+
+3. Install frontend dependencies (Laravel Breeze)
+   npm install
+   npm run build
+
+4. Create environment file
+   cp .env.example .env    
+
+5. Generate application key
+   php artisan key:generate
+
+6. Run migrations
+   php artisan migrate
+
+7. Run frontend build
+   npm run dev
+
+8. Start the server
+   php artisan serve
+
+9. php artisan storage:link
+
+10. php artisan db:seed 
+
+------------------------------------------------------------
+Total Time Taken : 3:30 hrs
